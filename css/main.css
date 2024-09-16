@@ -8,7 +8,7 @@ Color variables
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -34,8 +34,7 @@ main {
    * `article` contexts in Chrome, Firefox, and Safari.
    */
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0; }
+  font-size: 2em; }
 
 /* Grouping content
      ========================================================================== */
@@ -201,7 +200,7 @@ button:-moz-focusring,
    * Correct the padding in Firefox.
    */
 fieldset {
-  padding: 0.35em 0.75em 0.625em; }
+  padding: 0; }
 
 /**
    * 1. Correct the text wrapping in Edge and IE.
@@ -372,3 +371,57 @@ html {
 
 body {
   background-color: #f4d04e; }
+
+.blogpost-cards {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.blogpost-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  max-width: 38.4rem;
+  padding: 2.4rem;
+  background-color: white;
+  border: 1px solid #121212;
+  border-radius: 2rem;
+  box-shadow: 0.8rem 0.8rem #000; }
+  .blogpost-card__cover {
+    border-radius: 1rem; }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem; }
+  .content__category {
+    width: fit-content;
+    font-size: 1.4rem;
+    font-weight: 800;
+    background-color: #f4d04e;
+    padding: 0.4rem 1.2rem;
+    border-radius: 0.4rem; }
+  .content__publish-date {
+    font-size: 1.4rem; }
+  .content__title {
+    font-size: 2.4rem;
+    line-height: 1.5;
+    transition: color 0.15s ease; }
+    .content__title:hover {
+      color: #f4d04e; }
+  .content__excerpt {
+    font-size: 1.6rem;
+    color: #6b6b6b; }
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem; }
+  .author__avatar {
+    max-width: 3.2rem;
+    max-height: 3.2rem; }
+  .author__name {
+    font-size: 1.4rem;
+    font-weight: 800; }
