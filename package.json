@@ -1,0 +1,19 @@
+{
+  "name": "blog-preview-card-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Blog preview card coding challenge](./preview.jpg)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-Mikos/frontend-mentor-blog-preview-card.git"
+  },
+  "author": "Marcin Mikos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M-Mikos/frontend-mentor-blog-preview-card/issues"
+  },
+  "homepage": "https://github.com/M-Mikos/frontend-mentor-blog-preview-card#readme"
+}
