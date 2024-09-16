@@ -22,7 +22,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## Links
 
-- [Solution](https://marcin-m-frontend-mentor-blog-preview-card.vercel.app/)
+- [Solution](https://www.frontendmentor.io/solutions/blog-preview-card-with-scss-and-rem-units-v-zCrzJkDD)
 - [Live Site](https://marcin-m-frontend-mentor-blog-preview-card.vercel.app/)
 
 ## What have I learned
