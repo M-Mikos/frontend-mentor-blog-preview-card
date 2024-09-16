@@ -1,0 +1,43 @@
+.blogpost-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+  max-width: 38.4rem;
+  padding: 2.4rem;
+
+  background-color: $surface;
+  border: 1px solid $content;
+  border-radius: 2rem;
+  box-shadow: 0.8rem 0.8rem #000;
+
+  &__cover {
+    border-radius: 1rem;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  &__category {
+    width: fit-content;
+    font-size: 1.4rem;
+    font-weight: 800;
+    background-color: $primary;
+    padding: 0.4rem 1.2rem;
+    border-radius: 0.4rem;
+  }
+  &__publish-date {
+    font-size: 1.4rem;
+  }
+  &__title {
+    font-size: 2.4rem;
+    line-height: 1.5;
+  }
+  &__excerpt {
+    font-size: 1.6rem;
+    color: $content--light;
+  }
+}
