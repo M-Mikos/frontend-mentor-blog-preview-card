@@ -18,7 +18,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](assets\images\screenshot.png)
+![](images/screenshot.png)
 
 ## Links
 
@@ -40,7 +40,7 @@ I've practised semantic HTML with tags such as `<date>` or `<figure>`. I also ga
 
 ## Acknowledgements
 
-- Normalize.css based on ["Repository by Nicolas Gallagher and Jonathan Neal"](https://github.com/necolas/normalize.css/)
+- Normalize.css based on [repository by Nicolas Gallagher and Jonathan Neal](https://github.com/necolas/normalize.css/)
 - Reset.css based on ["A Modern CSS Reset" by Josh Comeau](https://www.joshwcomeau.com/css/custom-css-reset/)
 
 ## Contact
