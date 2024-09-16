@@ -4,7 +4,8 @@
   "description": "![Design preview for the Blog preview card coding challenge](./preview.jpg)",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch:sass": "node-sass scss/main.scss css/main.css -w",
+    "compile:sass": "node-sass scss/main.scss css/main.css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/M-Mikos/frontend-mentor-blog-preview-card/issues"
   },
-  "homepage": "https://github.com/M-Mikos/frontend-mentor-blog-preview-card#readme"
+  "homepage": "https://github.com/M-Mikos/frontend-mentor-blog-preview-card#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "sass": "^1.78.0"
+  }
 }
